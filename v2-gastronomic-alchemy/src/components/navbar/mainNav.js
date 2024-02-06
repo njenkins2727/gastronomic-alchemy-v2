@@ -1,12 +1,13 @@
 import './mainNav.css'
-
+import logo from '../images/logo.png'
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+// TOP NAVV
   <div className="navbar">
     <ul className="nav">
 
       <div className="topNav">
-        <a className="navBrand" href="#Home"> <img src={require('../images/logo.png')} className='navImg'/> Gastronomic Alchemy </a>
+        <a className="navBrand" href="#Home"> <img src={logo} className='navImg'/> Gastronomic Alchemy </a>
       <div className="topRightNav">
 
         <li className="navItem">
@@ -28,7 +29,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         </li>
       </div>
       </div>
-
+{/* BOTTOM NAV */}
         <div className="bottomNav">
         <li className="navItem">
           <a href="#EasyDinner" onClick={() => handlePageChange('EasyDinner')} className={currentPage === 'EasyDinner' ? 'nav-link active text-dark' : 'nav-link'}>

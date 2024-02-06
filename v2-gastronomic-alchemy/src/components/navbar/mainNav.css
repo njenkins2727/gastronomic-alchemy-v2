@@ -1,9 +1,39 @@
+:root {
+    --color-primary: #f24822;
+    --color-primary-variant: #ffc7bb;
+    --color-black: #0a0a0c;
+    --color-dark: #62656a;
+    --color-white: #f2f2f2;
+    --color-light: #rgba(255, 255, 255, 0.8);
+}
+
+.active{
+    color: var(--color-primary-variant);
+    border-bottom: 3px solid var(--color-primary-variant);
+}
 /* ALL NAVBAR */
+
 .navbar{
     /* border: 4px solid blue; */
     width: 84%;
     margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
 }
+.navbar:focus{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: var(--color-primary-variant);
+    cursor: pointer;
+}
+
+
 /* ALL NAVBAR ITEMS EXCEPT NAVBRAND */
 .navItem{
     font-size: 1.25em;
@@ -11,11 +41,12 @@
 
 /* TOP NAVBAR */
 .topNav{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 2px solid var(--color-primary);
     padding-bottom: 1.2em;
     margin-top: 1.25em;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .navImg{
@@ -27,6 +58,13 @@
     font-size: 2.5em;
     display: flex;
     align-items: center;
+    font-family: "Playfair Display", serif;
+    color: #0a0a0c;
+}
+
+.navBrand:hover{
+    color: #0a0a0c;
+
 }
 
 .topRightNav{
@@ -44,5 +82,5 @@
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 1.5em;
-    width: 50%;
+    width: 64%;
 }
