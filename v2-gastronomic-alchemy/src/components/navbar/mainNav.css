@@ -17,8 +17,8 @@
     /* border: 4px solid blue; */
     width: 84%;
     margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
 }
+
 .navbar:focus{
     text-decoration: none;
 }
@@ -42,11 +42,10 @@ a:hover{
 /* TOP NAVBAR */
 .topNav{
     border-bottom: 2px solid var(--color-primary);
-    padding-bottom: 1.2em;
-    margin-top: 1.25em;
+    padding-bottom: 1.2rem;
+    margin-top: 1.25rem;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .navImg{
@@ -58,7 +57,6 @@ a:hover{
     font-size: 2.5em;
     display: flex;
     align-items: center;
-    font-family: "Playfair Display", serif;
     color: #0a0a0c;
 }
 
@@ -70,8 +68,8 @@ a:hover{
 .topRightNav{
     display: flex;
     align-items: flex-end;
-    gap: 1.2em;
-    margin-right: 1.2em;
+    gap: 1.2rem;
+    margin-right: 1.2rem;
     align-items: center;
 }
 
@@ -81,7 +79,7 @@ a:hover{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    margin-top: 1.5em;
-    margin-bottom: 2em; 
+    margin-top: 1.5rem;
+    margin-bottom: 2rem; 
     width: 64%;
 }

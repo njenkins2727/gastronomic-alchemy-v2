@@ -4,10 +4,10 @@ import Footer from '../footer/footer';
 import Home from "../pages/home/home";
 import About from '../pages/home/about';
 import Login from '../forms/login/login';
-import EasyDinner from "../pages/easyDinner";
-import BreakfastHero from '../pages/breakfastHero';
-import DateNight from "../pages/dateNight";
-import DinnerParty from "../pages/dinnerParty";
+import EasyDinner from "../pages/easyDinner/easyDinner";
+import BreakfastHero from '../pages/breakfastHero/breakfastHero';
+import DateNight from "../pages/dateNight/dateNight";
+import DinnerParty from "../pages/dinnerParty/dinnerParty";
 import Saved from "../pages/saved";
 
 export default function ContainerChange() {

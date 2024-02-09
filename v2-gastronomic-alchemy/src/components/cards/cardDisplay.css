@@ -1,0 +1,12 @@
+.card-wrapper{
+    background-color: white;
+    border: 1px solid lightgrey;
+    width: 84%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-wrapper img {
+    max-width: 4rem;
+    height: 2em;
+}
