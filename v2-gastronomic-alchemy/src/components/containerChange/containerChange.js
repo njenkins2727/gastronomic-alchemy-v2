@@ -9,6 +9,8 @@ import BreakfastHero from '../pages/breakfastHero/breakfastHero';
 import DateNight from "../pages/dateNight/dateNight";
 import DinnerParty from "../pages/dinnerParty/dinnerParty";
 import Saved from "../pages/saved";
+import { breakfast, date } from '../utils/recipe';
+
 
 export default function ContainerChange() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -28,10 +30,10 @@ export default function ContainerChange() {
         return <EasyDinner />;
       }
       if (currentPage === 'BreakfastHero') {
-        return <BreakfastHero />;
+        return <BreakfastHero breakfast={breakfast}/>;
       }
       if (currentPage === 'DateNight') {
-        return <DateNight />;
+        return <DateNight date={date}/>;
       }
       if (currentPage === 'DinnerParty') {
         return <DinnerParty />;

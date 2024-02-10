@@ -26,8 +26,8 @@
 }
 
 .card-img{
-    max-width: 400px;
-    height: 400px;
+    max-width: 350px;
+    height: 350px;
     object-fit: cover;
     float: left;
     margin: 2rem;
