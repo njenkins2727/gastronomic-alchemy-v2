@@ -8,8 +8,8 @@ import EasyDinner from "../pages/easyDinner/easyDinner";
 import BreakfastHero from '../pages/breakfastHero/breakfastHero';
 import DateNight from "../pages/dateNight/dateNight";
 import DinnerParty from "../pages/dinnerParty/dinnerParty";
-import Saved from "../pages/saved";
-import { breakfast, date } from '../utils/recipe';
+import Saved from "../pages/saved/saved";
+import { breakfast, date, dinnerParty, easyDinner } from '../utils/recipe';
 
 
 export default function ContainerChange() {
@@ -27,7 +27,7 @@ export default function ContainerChange() {
       return <Login />;
     }
     if (currentPage === 'EasyDinner') {
-        return <EasyDinner />;
+        return <EasyDinner easyDinner={easyDinner}/>;
       }
       if (currentPage === 'BreakfastHero') {
         return <BreakfastHero breakfast={breakfast}/>;
@@ -36,7 +36,7 @@ export default function ContainerChange() {
         return <DateNight date={date}/>;
       }
       if (currentPage === 'DinnerParty') {
-        return <DinnerParty />;
+        return <DinnerParty dinnerParty={dinnerParty}/>;
       }
         return <Saved />;
      

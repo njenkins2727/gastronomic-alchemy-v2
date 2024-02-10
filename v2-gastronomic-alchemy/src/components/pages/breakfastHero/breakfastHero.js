@@ -1,7 +1,7 @@
-import './breakfastHero.css'
+import '../pages.css';
 function BreakfastHero({ breakfast }){
     return(
-    <div className='breakfast-hero'>
+    <div className='global'>
         <div className="page-header">
             <h2 className="page-title">Breakfast Hero</h2>
             <p className='page-subtext'> Be the hero that provides the most important meal of the day.. with FLAVOUR! </p>

@@ -1,4 +1,4 @@
-import hero from '../../images/img-hero.png'
+import hero from '../../images/imgHero.png'
 import './home.css'
 function Home(){
     return(
