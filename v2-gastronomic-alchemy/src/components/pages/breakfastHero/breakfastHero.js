@@ -49,5 +49,5 @@ function BreakfastHero({ breakfast }){
 export default BreakfastHero;
 
 // work on extracting arrays and putting them into a <li>
-// fix up css: img spilling, ingredient and method text into lists 
+
 
