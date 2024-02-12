@@ -7,7 +7,7 @@ function NavTabs({ currentPage, handlePageChange }) {
     <ul className="nav">
 
       <div className="topNav">
-        <a className="navBrand" href="#Home"> <img src={logo} className='navImg'/> Gastronomic Alchemy </a>
+        <a className="navBrand" href="#Home" onClick={() => handlePageChange('Home')}> <img src={logo} className='navImg'/> Gastronomic Alchemy </a>
       <div className="topRightNav">
 
         <li className="navItem">
