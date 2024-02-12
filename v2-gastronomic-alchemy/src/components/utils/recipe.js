@@ -139,6 +139,19 @@ const easyDinner = [
         title: 'Buritto bowls', 
         date: '6-11-24',
         gf: 'love it',
+        description: 'lorem ipsum dolor sit amet consectetur adipsisicuing elit. quae cikupatas cek djfnjwsdnvjndhsn grejn. lorem Ispum sorrem dipsum borrem hipsum corren lipthim jibsontitsum.',
+        img: require('../images/easy-dinner/230329_burrito-bowls-09.jpeg'),
+        ingredients:['Lamb mince', 'Orzo', 'Diced tomatos', 'White wine', 'Oregano..'],
+        method: [
+        'Non eius nostrum eos neque pariatur et sint consequuntur non quibusdam quas qui quibusdam praesentium. Ut iusto', 
+        'repellat et voluptas doloremque eum eveniet labore cum porro dolores id distinctio molestias.'
+        ],
+    },
+    {
+        id: 1, 
+        title: 'other food', 
+        date: '27-11-24',
+        gf: 'love it also',
         description: 'lorem ipsum dolor sit amet consectetur adipsisicuing elit. quae cikupatas cek djfnjwsdnvjndhsn grejn.',
         img: require('../images/easy-dinner/230329_burrito-bowls-09.jpeg'),
         ingredients:['Lamb mince', 'Orzo', 'Diced tomatos', 'White wine', 'Oregano..'],

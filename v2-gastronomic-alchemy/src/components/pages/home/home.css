@@ -1,3 +1,4 @@
+/* MAIN */
 .body{
     margin: 0 auto;
     max-width: 84%;
@@ -60,7 +61,17 @@
     background-color: var(--color-primary);
     color: var(--color-white);
 }
+/* CARD DISPLAYS */
+.card-heading{
+    font-size: 4em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
 
+/* MEDIA QUERIES */
 @media (max-width: 1490px) {
     .hero-text h1{
         

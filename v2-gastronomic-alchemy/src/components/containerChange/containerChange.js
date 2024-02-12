@@ -18,7 +18,7 @@ export default function ContainerChange() {
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'Home') {
-      return <Home />;
+      return <Home easyDinner={easyDinner} breakfast={breakfast} date={date} dinnerParty={dinnerParty}/>;
     }
     if (currentPage === 'About') {
       return <About />;

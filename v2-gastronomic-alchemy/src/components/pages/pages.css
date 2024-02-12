@@ -8,6 +8,7 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 3rem;
+    margin-top: 2rem;
 }
 
 .page-title{
@@ -34,7 +35,7 @@
     object-fit: cover;
     float: left;
     border-radius: 2.5rem;
-    /* padddng: 1rem; */
+    background-color: white;
 }
 
 .text{
@@ -79,17 +80,14 @@
 }
 
 .card-method{
-    /* margin: 1rem, 2rem, 0rem, 1rem */
     margin-top: 1rem;
     margin-right: 2rem;
     margin-left: 1rem;
-
 }
 
 .card-method h5{
     font-size: 1.2em;
     background-color: white;
-
 }
 
 .card-list li{
