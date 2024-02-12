@@ -4,6 +4,7 @@ import Footer from '../footer/footer';
 import Home from "../pages/home/home";
 import About from '../pages/home/about';
 import Login from '../forms/login/login';
+import Register from '../forms/register/register'
 import EasyDinner from "../pages/easyDinner/easyDinner";
 import BreakfastHero from '../pages/breakfastHero/breakfastHero';
 import DateNight from "../pages/dateNight/dateNight";
@@ -25,6 +26,9 @@ export default function ContainerChange() {
     }
     if (currentPage === 'Login') {
       return <Login />;
+    }
+    if (currentPage === 'Register'){
+      return <Register/>
     }
     if (currentPage === 'EasyDinner') {
         return <EasyDinner easyDinner={easyDinner}/>;

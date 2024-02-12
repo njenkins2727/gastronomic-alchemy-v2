@@ -1,0 +1,12 @@
+.login-wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto; 
+    margin-top: 8rem;
+    padding-top: 3rem;
+    max-width: 20rem;
+    height: 30rem;
+    border-radius: 3%;
+}
